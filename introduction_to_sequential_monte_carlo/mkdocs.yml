@@ -1,7 +1,17 @@
-site_name: Introduction to Sequential Monte Carlo
+site_name: 勉強会
 
 theme:
   name: material
+
+nav:
+  - Rによる時系列モデリング入門（北川源四郎）:
+    - 表紙: timeseries_analysis_kitagawa/index.md
+    - 状態空間モデルとカルマンフィルタ（理論）: timeseries_analysis_kitagawa/statespace_part1.md
+    - 状態空間モデルとカルマンフィルタ（実装）: timeseries_analysis_kitagawa/statespace_part2.md
+  - Introduction to Sequential Monte Carlo:
+    - 表紙: introduction_to_sequential_monte_carlo/index.md
+    - Chapter1: introduction_to_sequential_monte_carlo/chapter1.md
+    - Chapter2: introduction_to_sequential_monte_carlo/chapter2.md
 
 markdown_extensions:
   - pymdownx.arithmatex:
